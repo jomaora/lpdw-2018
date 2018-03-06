@@ -4,6 +4,9 @@
         "node": true,
         "mocha": false
     },
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
     "extends": "eslint:recommended",
     "overrides": [
       {
@@ -30,6 +33,11 @@
             "error",
             "always"
         ],
-        "no-console": 0
+        "no-console": [
+            "off"
+        ],
+        "no-useless-escape": [
+            "off"
+        ]
     }
 }

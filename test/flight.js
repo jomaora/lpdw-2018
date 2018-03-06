@@ -23,7 +23,7 @@ describe('voyage API', function() {
 					const body = response.body;
 					expect(body).to.be.an('array');
 					expect(body[0].destination).to.be.equal('BOG');
-          expect(body[0].origin).to.be.equal('CDG');
+					expect(body[0].origin).to.be.equal('CDG');
 				});
 		});
 	});
